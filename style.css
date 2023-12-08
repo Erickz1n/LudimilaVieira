@@ -8,12 +8,12 @@
 
 @font-face {
     font-family: Bagator;
-    src: url(/assets/fonts/Bagator.otf)
+    src: url(Bagator.otf);
 }
 
 @font-face {
     font-family: Brinnan-Regular;
-    src: url(/assets/fonts/Brinnan-Regular.otf);
+    src: url(Brinnan-Regular.otf);
 }
 
 :root {
@@ -31,7 +31,7 @@
 }
 
 body {
-    background: url(/assets/images/background.jpg) no-repeat center/cover;
+    background: url(background.jpg) no-repeat center/cover;
 }
 
 main {
@@ -154,7 +154,7 @@ button {
 
     body {
         background: #000000 ;
-        background: url(/assets/images/background.jpg) no-repeat center/cover;
+        background: url(background.jpg) no-repeat center/cover;
     }
 
     main {
@@ -245,6 +245,7 @@ button {
         font-size: 2rem;
         font-family: Bagator, sans-serif;
         font-weight: 400;
+        
         cursor: pointer;
         margin-top: 3rem;
     }
