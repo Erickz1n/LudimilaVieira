@@ -1,3 +1,4 @@
+
 const input = document.getElementById('telefone');
 
 function formatPhoneNumber() {

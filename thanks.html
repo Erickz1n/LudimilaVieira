@@ -4,22 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="/css/thanks.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://rawgit.com/googlei18n/libphonenumber/master/dist/libphonenumber.js"></script>
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-
     <main>
-        <a href="index.html">
-            <img class="logo" src="./assets/images/LOGOTIPO-LUDMILLA-WHITE.svg" alt="">
-        </a>
+        <section>
+            <div class="content">
+                <a href="index.html">
+                    <img class="logo" src="/LOGOTIPO-LUDMILLA-WHITE.svg" alt="">
+                </a>
+                </div>
+            </div>
 
-        <div class="text">
-    
-            <h1>OBRIGADO!</h1>
-            <p>Entraremos em contato em breve.</p>
+            <form id="formulario" action="https://formsubmit.co/ajax/aa7b004e5a973fb31de33ddabf075ab3" method="post" data-form>
+
+                        
+                <div class="quest">
+                    <div class="quest-content">
+                        <label class="text" id="nome">Nome: </label>
+                    </div>
+                    <input class="input" id="fullname" type="text" name="Nome" placeholder="Ludimila Vieira" autocomplete="off">
+                </div>
+                
+                <div class="quest">
+                    <div class="quest-content">
+                        <label class="text" id="email">Email: </label>
+                    </div>
+                    <input class="input" type="email" id="email_placeholder" name="Email" placeholder="exemplo@gmail.com" autocomplete="off">
+                </div>
+
+                <div class="quest">
+                    <div class="quest-content">
+                        <label class="text" for="telefone" id="whatsapp">Telefone: </label>
+                    </div>
+                    <input class="input" type="tel" id="telefone" name="Whatsapp" placeholder="(00) 00000-0000" maxlength="15"  autocomplete="off" oninput="formatPhoneNumber()">
+                </div>
+
+
+                <div class="quest">
+                    <div class="quest-content">
+                        <label class="text" id="email">@ do seu Instagram: </label>
+                    </div>
+                    <input class="input" type="text" id="email_placeholder" name="Instagram" placeholder="" autocomplete="off">
+                </div>
+
+                <div class="content-button">
+                    <button class="button" id="button" type="submit" data-button>QUERO APLICAR
+                    </button>
+
+                    <P>Enviado com sucesso!</P>
+                </div>
+
         </div>
+        </form>
 
+        </section>
     </main>
+    
+    <script src="main.js"></script>
 </body>
 </html>
