@@ -153,6 +153,93 @@ button {
 }
 
 @media (min-width: 767px) {
+
+    .logo {
+        width: 22rem;
+        margin-bottom: 6rem;
+    }
+    
+    body {
+        background: url(background.jpg) no-repeat center/cover;
+    }
+    
+    main {
+        height: 100vh;
+        width: 100%;
+    
+        padding: 15rem 2rem;
+
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 3rem;
+        width: 100%;
+    
+        font-size: 2rem;
+        font-family: Bagator, sans-serif;
+        font-weight: 400;
+        color: var(--font-color);
+    }
+    
+    label {
+        font-size: 2rem;
+    }
+    
+    input {
+        color: var(--font-color);
+        font-size: 2rem;
+        font-family: Bagator, sans-serif;
+        font-weight: 400;
+    
+        padding: .5rem 0 0 0;
+    
+        width: 100%;
+        background: none;
+        font-weight: 400;
+    
+        border: none;
+        border-bottom: #626262 1px solid;
+        font-weight: 400;
+    
+    }
+    
+    input:focus {
+        border: none;
+        border-bottom: #626262 1px solid;
+    }
+    
+    button {
+        font-size: 1.8rem;
+        font-family: Bagator, sans-serif;
+        font-weight: 400;
+    
+        background: var(--main-color);
+        padding: 1rem 4rem;
+        border: none;
+        align-items: center;
+        text-align: center;
+    }
+
+    .content-button p {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    .content {
+        width: 70rem;
+    }
+}
+
+@media (min-width: 1200px) {
     ::-webkit-scrollbar {
         width: .8rem;
     }
@@ -197,7 +284,7 @@ button {
     .content {
         width: 70rem;
     }
-
+/* 
     main .title {
         font-size: 4.8rem;
         font-weight: 400;
@@ -232,7 +319,7 @@ button {
         font-family: Bagator, sans-serif;
         font-size: 2rem;
         margin-bottom: 4rem;
-    }
+    } */
     
     form {
         font-size: 2rem;
