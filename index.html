@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section>
+            <div class="content">
+                <a href="index.html">
+                    <img class="logo" src="./assets/images/LOGOTIPO-LUDMILLA-WHITE.svg" alt="">
+                </a>
+                
+                <div class="copy">
+                    <div class="text">
+                        <h1 class="title">
+                            Pré-Aplicação 
+                            para Consultoria 
+                            de Diagnóstico Gratuita. 
+                        </h1>
+            
+                        <h2 class="subtitle">
+                            Uma Análise de 30 minutos com meu olhar único 
+                            e estratégico de direcionamento para seus 
+                            objetivos e realização. 
+                        </h2>
+                    </div>
+    
+                    <div class="subtitles">
+                        <p class="phrase">
+                            Digite os dados abaixo para processarmos sua aplicação.
+                        </p>
+                        
+                        <p class="questions">
+                            PREENCHA OS CAMPOS ABAIXO:
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <form id="formulario" action="https://formsubmit.co/ajax/aa7b004e5a973fb31de33ddabf075ab3" method="post" data-form>
+
+                        
+                <div class="quest">
+                    <div class="quest-content">
+                        <label class="text" id="nome">Nome: </label>
+                    </div>
+                    <input class="input" id="fullname" type="text" name="Nome" placeholder="" autocomplete="off">
+                </div>
+                
+                <div class="quest">
+                    <div class="quest-content">
+                        <label class="text" id="email">Email: </label>
+                    </div>
+                    <input class="input" type="email" id="email_placeholder" name="Email" placeholder="" autocomplete="off">
+                </div>
+
+                <div class="quest">
+                    <div class="quest-content">
+                        <label class="text" for="telefone" id="whatsapp">Telefone: </label>
+                    </div>
+                    <input class="input" type="tel" id="telefone" name="Whatsapp" placeholder="" maxlength="15"  autocomplete="off" oninput="formatPhoneNumber()">
+                </div>
+
+                <div class="quest">
+                    <div class="quest-content">
+                        <label class="text" id="email">@ do seu Instagram: </label>
+                    </div>
+                    <input class="input" type="text" id="email_placeholder" name="Instagram" placeholder="" autocomplete="off">
+                </div>
+
+                <div class="content-button">
+                    <button class="button" id="button" type="submit" data-button>QUERO APLICAR
+                        <img class="diagonal-arrow" id="diagonal_arrow" src="./assets/images/submit-arrow.svg" alt="">
+                    </button>
+                </div>
+
+        </div>
+        </form>
+        </section>
+    </main>
+    
+    <script src="./js/main.js"></script>
+</body>
+</html>
