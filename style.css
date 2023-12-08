@@ -35,11 +35,10 @@ body {
 }
 
 main {
-
     height: 100vh;
     width: 100%;
 
-    padding: 4rem 2rem;
+    padding: 15rem 2rem;
 }
 
 main .text, .copy {
@@ -92,7 +91,6 @@ form {
     font-family: Bagator, sans-serif;
     font-weight: 400;
     color: var(--font-color);
-
 }
 
 label {
@@ -148,10 +146,6 @@ button {
     ::-webkit-scrollbar-thumb {
         background-color: var(--main-color);
     }
-    
-    
-
-
 
     .logo {
         width: 40rem;
@@ -160,24 +154,25 @@ button {
 
     body {
         background: #000000 ;
-        padding: 25rem 0;
         background: url(/assets/images/background.jpg) no-repeat center/cover;
-
     }
 
     main {
         height: 100vh;
         width: 100%;
+
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-
     }
 
     main section {
-
         gap: 5rem;
+
+        display: flex;
+        flex-direction: column;
+
     }
 
     .content {
