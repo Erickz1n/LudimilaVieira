@@ -20,7 +20,7 @@
     font-size: 62.5%;
     font-family: Bagator, sans-serif;
 
-    --main-color: hsl(46, 94%, 79%);
+    --main-color: #DEB331;
     --font-color: #fff;
     --bg-color: hsl(0, 0%, 0%);
 }
@@ -30,8 +30,11 @@
     margin-bottom: 2rem;
 }
 
+body {
+    background: url(/assets/images/background.jpg) no-repeat center/cover;
+}
+
 main {
-    background-color: #000000;
 
     height: 100vh;
     width: 100%;
@@ -132,14 +135,33 @@ button {
 }
 
 
-@media (min-width: 1200px) {
+@media (min-width: 650px) {
+    ::-webkit-scrollbar {
+        width: .8rem;
+    }
+    
+    ::-webkit-scrollbar-track {
+        background-color: #2c2c31;
+    
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background-color: var(--main-color);
+    }
+    
+    
+
+
+
     .logo {
         width: 40rem;
+        margin-bottom: 5rem;
     }
 
     body {
         background: #000000 ;
-        padding: 15rem 0 15rem 0;
+        padding: 25rem 0;
+        background: url(/assets/images/background.jpg) no-repeat center/cover;
 
     }
 
@@ -150,6 +172,7 @@ button {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+
     }
 
     main section {
@@ -194,6 +217,7 @@ button {
         color: var(--main-color);
         font-family: Bagator, sans-serif;
         font-size: 2rem;
+        margin-bottom: 4rem;
     }
     
     form {
@@ -211,7 +235,7 @@ button {
         color: var(--font-color);
         font-size: 2rem;
         height: 5rem;
-        padding: 3rem 0 0 0;
+        padding: 2rem 0 0 0;
     }
     
     input:focus {
@@ -227,6 +251,6 @@ button {
         font-family: Bagator, sans-serif;
         font-weight: 400;
         cursor: pointer;
-        margin-top: 2rem;
+        margin-top: 3rem;
     }
 }
