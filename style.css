@@ -184,21 +184,29 @@ button {
 
     main .title {
         text-transform: none;
-        font-size: 3rem;
-        line-height: 3rem;
+        font-size: 5rem;
+        line-height: 4rem;
         margin-bottom: 2rem;
-        width: 35rem;
+        width: 60rem;
+    }
+
+    .text p, .phrase {
+        font-size: 2rem;
+        line-height: 2rem;
     }
 
     .text {
-        width: 35rem;
-        margin-bottom: 2rem;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .subtitle {
+
     }
     
     body {
         background: url(background.jpg) no-repeat center/cover;
         height: 100vh;
-
     }
     
     main {
@@ -230,8 +238,7 @@ button {
     
     label {
         font-size: 2rem;
-    font-family: AlegreyaSC-Medium;
-
+        font-family: AlegreyaSC-Medium;
     }
     
     input {
@@ -269,6 +276,7 @@ button {
         border: none;
         align-items: center;
         text-align: center;
+        margin-top: 2rem;
     }
 
     .content-button p {
