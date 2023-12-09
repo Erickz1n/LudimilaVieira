@@ -62,7 +62,10 @@ main .title {
     margin-bottom: 1rem;
 
     text-transform: none;
-    color: var(--main-color);
+    background: linear-gradient(to bottom right, #ffe253, #514800);
+    color: transparent; /* Torna o texto transparente */
+    -webkit-background-clip: text; /* Aplica o gradiente apenas na área do texto */
+    background-clip: text;
 }
 
 main .subtitle, .phrase, .questions {
@@ -144,7 +147,8 @@ button {
 
     font-weight: 400;
 
-    background: var(--main-color);
+    background: linear-gradient(to bottom right, #f9e581, #514800);
+
     padding: 1rem 4rem;
     border: none;
     align-items: center;
@@ -175,6 +179,19 @@ button {
 
 @media (min-width: 767px) {
 
+    main {
+        height: auto;
+        width: 100%;
+    
+        padding: 15rem 2rem;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+
     .logo {
         width: 22rem;
         margin-bottom: 6rem;
@@ -204,19 +221,7 @@ button {
         background: url(background.jpg) no-repeat center/cover;
     }
     
-    main {
-        height: 100vh;
-        width: 100%;
-    
-        padding: 5rem 2rem;
 
-
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    
     form {
         display: flex;
         flex-direction: column;
@@ -265,7 +270,7 @@ button {
 
         font-weight: 400;
     
-        background: var(--main-color);
+        background: linear-gradient(to bottom right, #ffe253, #514800);
         padding: 1rem 4rem;
         border: none;
         align-items: center;
