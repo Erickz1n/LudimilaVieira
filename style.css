@@ -39,10 +39,12 @@
 
 body {
     background: url(bg-mobile.jpg) no-repeat center/cover;
+    height: 100vh;
+
 }
 
 main {
-    height: 100vh;
+    height: auto;
     width: 100%;
 
     padding: 10rem 2rem;
