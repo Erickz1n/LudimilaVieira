@@ -58,9 +58,10 @@ main .title {
     font-size: 2.5rem;
     font-weight: 400;
     font-family: AlegreyaSC-Medium;
-    
+    line-height: 3rem;
+    margin-bottom: 1rem;
 
-    text-transform: uppercase;
+    text-transform: none;
     color: var(--main-color);
 }
 
@@ -69,7 +70,7 @@ main .subtitle, .phrase, .questions {
     font-family: AlegreyaSC-Medium;
 
     font-weight: 400;
-    text-transform: uppercase;
+    text-transform: none;
     font-size: 1.5rem;
     margin-bottom: 1rem;
 
@@ -100,6 +101,7 @@ form {
     display: flex;
     flex-direction: column;
     gap: 3rem;
+    margin-top: 2rem;
 
     font-size: 2rem;
     font-family: AlegreyaSC-Medium;
@@ -180,8 +182,17 @@ button {
         display: none;
     }
 
+    main .title {
+        text-transform: none;
+        font-size: 3rem;
+        line-height: 3rem;
+        margin-bottom: 2rem;
+        width: 35rem;
+    }
+
     .text {
-        width: 40rem;
+        width: 35rem;
+        margin-bottom: 2rem;
     }
     
     body {
@@ -320,9 +331,11 @@ button {
     main .title {
         font-size: 4.8rem;
         font-weight: 400;
-        width: 70.8rem;
+        width: 60rem;
+        line-height: 5rem;
+        margin-bottom: 2rem;
     
-        text-transform: uppercase;
+        text-transform: none;
         background: linear-gradient(to bottom right, #ffe253, #514800);
         color: transparent; /* Torna o texto transparente */
         -webkit-background-clip: text; /* Aplica o gradiente apenas na área do texto */
@@ -339,7 +352,7 @@ button {
         font-family: AlegreyaSC-Medium;
 
         font-weight: 400;
-        text-transform: uppercase;
+        text-transform: none;
         font-size: 2.5rem;
     }
     
@@ -351,7 +364,7 @@ button {
     }
     
     .phrase {
-        font-size: 2rem;
+        font-size: rem;
         text-transform: none;
     }
     
