@@ -199,10 +199,6 @@ button {
         width: 100%;
         margin-bottom: 1rem;
     }
-
-    .subtitle {
-
-    }
     
     body {
         background: url(background.jpg) no-repeat center/cover;
@@ -257,7 +253,6 @@ button {
         border: none;
         border-bottom: #626262 1px solid;
         font-weight: 400;
-    
     }
     
     input:focus {
