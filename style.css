@@ -197,13 +197,15 @@ button {
     
     body {
         background: url(background.jpg) no-repeat center/cover;
+        height: 100vh;
+
     }
     
     main {
         height: auto;
         width: 100%;
     
-        padding: 15rem 2rem;
+        padding: 5rem 2rem;
 
 
         display: flex;
