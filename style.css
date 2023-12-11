@@ -216,7 +216,7 @@ button {
     }
     
     body {
-        background: url(background.jpg) no-repeat center/cover;
+        background: url(bg-mobile.jpg) no-repeat center/cover;
     }
     
 
@@ -361,11 +361,11 @@ button {
         width: 100%;
     }
     
-    .subtitles {
-        margin-top: 2rem;
+    .subtitle {
         display: flex;
         flex-direction: column;
         gap: 3rem;
+        margin-bottom: 2rem;
     }
     
     .phrase {
