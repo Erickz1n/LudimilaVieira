@@ -356,6 +356,7 @@ button {
         font-weight: 400;
         text-transform: none;
         font-size: 2.5rem;
+        width: 100%;
     }
     
     .subtitles {
@@ -366,7 +367,7 @@ button {
     }
     
     .phrase {
-        font-size: rem;
+        font-size: 2.5rem;
         text-transform: none;
     }
     
