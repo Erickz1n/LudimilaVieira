@@ -38,7 +38,7 @@
 }
 
 body {
-    background: url(background-mobile.jpg) no-repeat center/cover;
+    background: url(background-mobile.svg) no-repeat center/cover;
 }
 
 main {
@@ -216,7 +216,7 @@ button {
     }
     
     body {
-        background: url(background-mobile.jpg) no-repeat center/cover;
+        background: url(background-mobile.svg) no-repeat center/cover;
     }
     
 
